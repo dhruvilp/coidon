@@ -5,6 +5,7 @@ import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 import 'package:very_good_slide_puzzle/layout/layout.dart';
 import 'package:very_good_slide_puzzle/puzzle/puzzle.dart';
 import 'package:very_good_slide_puzzle/theme/theme.dart';
+import 'package:very_good_slide_puzzle/theme/widgets/puzzle_popul_trend.dart';
 import 'package:very_good_slide_puzzle/theme/widgets/puzzle_subtitle.dart';
 
 import '../../typography/text_styles.dart';
@@ -53,10 +54,11 @@ class DashatarStartSection extends StatelessWidget {
         PuzzleSubtitle(
           title: theme.scientificName,
         ),
+        const PuzzlePopulationTrend(title: 'Population Trend'),
         const ResponsiveGap(
-          small: 9, //x3
-          medium: 12, //x4
-          large: 24, //x8
+          small: 9,
+          medium: 12,
+          large: 24,
         ),
         NumberOfMovesAndTilesLeft(
           key: numberOfMovesAndTilesLeftKey,

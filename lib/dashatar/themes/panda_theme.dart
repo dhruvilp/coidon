@@ -38,4 +38,11 @@ class PandaCoidonTheme extends CoidonTheme {
 
   @override
   String get scientificName => 'Ailurus Fulgens';
+
+  @override
+  String get taxonomy => 'Class [Mammalia], Genus [Ailurus]';
+
+  @override
+  String get funFacts =>
+      'Red pandas detect different scents with their tongues. The internet browser Firefox is named after Red pandas. Red pandas can eat as much as 200 000 bamboo leaves per day.';
 }

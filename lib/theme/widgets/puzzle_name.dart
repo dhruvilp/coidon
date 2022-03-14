@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:very_good_slide_puzzle/colors/colors.dart';
 import 'package:very_good_slide_puzzle/dashatar/bloc/bloc.dart';
 import 'package:very_good_slide_puzzle/layout/layout.dart';
 import 'package:very_good_slide_puzzle/theme/theme.dart';
@@ -57,7 +58,7 @@ class PuzzleName extends StatelessWidget {
                   child: Text(
                     coidonTheme.status,
                     style: GoogleFonts.roboto(
-                      color: Colors.white,
+                      color: PuzzleColors.black,
                       fontSize: 12,
                     ),
                   ),

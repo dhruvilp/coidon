@@ -47,7 +47,10 @@ class PuzzleTitle extends StatelessWidget {
         final textStyle = (currentSize == ResponsiveLayoutSize.large
                 ? PuzzleTextStyle.headline2
                 : PuzzleTextStyle.headline3)
-            .copyWith(color: titleColor, letterSpacing: 3);
+            .copyWith(
+                color: titleColor,
+                letterSpacing: 1.5,
+                fontWeight: FontWeight.w400);
 
         final textAlign = currentSize == ResponsiveLayoutSize.small
             ? TextAlign.center

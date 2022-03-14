@@ -38,4 +38,11 @@ class ElephantCoidonTheme extends CoidonTheme {
 
   @override
   String get scientificName => 'Loxodonta africana';
+
+  @override
+  String get taxonomy => 'Class [Mammalia], Genus [Loxodanta]';
+
+  @override
+  String get funFacts =>
+      'Can drink up to 50 gallons a day! The extremely flexible trunk of this animal has 100,000 various muscles. The tough skin of these animals is highly sensitive to ultraviolet rays. Hence, they use mud as a sunscreen: elephants are known to regularly take mud baths, which protect their skin from burning, insect bites and loss of moisture.';
 }

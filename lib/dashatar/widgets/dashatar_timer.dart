@@ -51,8 +51,8 @@ class DashatarTimer extends StatelessWidget {
 
         final currentIconSize = iconSize ??
             (currentSize == ResponsiveLayoutSize.small
-                ? const Size(28, 28)
-                : const Size(32, 32));
+                ? const Size(20, 20)
+                : const Size(25, 25));
 
         final timeElapsed = Duration(seconds: secondsElapsed);
 
@@ -63,6 +63,7 @@ class DashatarTimer extends StatelessWidget {
             AnimatedDefaultTextStyle(
               style: currentTextStyle.copyWith(
                 color: PuzzleColors.white,
+                fontSize: 18,
               ),
               duration: PuzzleThemeAnimationDuration.textStyle,
               child: Text(

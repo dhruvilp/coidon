@@ -5,7 +5,7 @@ part of 'dashatar_theme_bloc.dart';
 class CoidonThemeState extends Equatable {
   const CoidonThemeState({
     required this.themes,
-    this.theme = const RedWolfCoidonTheme(),
+    this.theme = const ElephantCoidonTheme(),
   });
 
   /// The list of all available [CoidonTheme]s.

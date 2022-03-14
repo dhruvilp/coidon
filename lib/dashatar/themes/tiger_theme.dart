@@ -38,4 +38,11 @@ class TigerCoidonTheme extends CoidonTheme {
 
   @override
   String get scientificName => 'Panthera tigris';
+
+  @override
+  String get taxonomy => 'Class [Mammalia], Genus [Panthera]';
+
+  @override
+  String get funFacts =>
+      "The tiger is the national animal of India, Bangladesh, Malaysia, and South Korea. Tigers can cross rivers up to 7 km (4.3 mi) wide and can swim up to 29 km (18 mi) in a day. Did you know that a tiger's coat pattern is still visible when it is shaved.";
 }

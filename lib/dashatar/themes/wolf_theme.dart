@@ -38,4 +38,11 @@ class RedWolfCoidonTheme extends CoidonTheme {
 
   @override
   String get scientificName => 'Canis rufus';
+
+  @override
+  String get taxonomy => 'Class [Mammalia], Genus [Canis]';
+
+  @override
+  String get funFacts =>
+      'The species was declared extinct in the wild in 1980. They were reintroduced into eastern North Carolina in 1987. The red wolf is one of the rarest animal species in the world.';
 }

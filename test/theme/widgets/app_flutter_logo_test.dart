@@ -56,7 +56,7 @@ void main() {
           (widget) =>
               widget is Image &&
               (widget.image as AssetImage).assetName ==
-                  'assets/images/logo_flutter_color.png',
+                  'assets/images/logo_coidon_white.png',
         ),
         findsOneWidget,
       );

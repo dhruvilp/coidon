@@ -19,6 +19,12 @@ abstract class PuzzleTheme extends Equatable {
   /// Species scientific name
   String get scientificName;
 
+  /// Species taxonomy
+  String get taxonomy;
+
+  /// Species fun facts
+  String get funFacts;
+
   /// Whether this theme displays the puzzle timer.
   bool get hasTimer;
 
