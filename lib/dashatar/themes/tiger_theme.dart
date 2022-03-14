@@ -3,11 +3,11 @@ import 'package:very_good_slide_puzzle/colors/colors.dart';
 import 'package:very_good_slide_puzzle/dashatar/coidon.dart';
 import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 
-/// {@template green_dashatar_theme}
+/// {@template tiger_theme}
 /// The green dashatar puzzle theme.
 /// {@endtemplate}
 class TigerCoidonTheme extends CoidonTheme {
-  /// {@macro green_dashatar_theme}
+  /// {tiger_theme}
   const TigerCoidonTheme() : super();
 
   @override
@@ -15,25 +15,10 @@ class TigerCoidonTheme extends CoidonTheme {
       context.l10n.coidonTigerLabelText;
 
   @override
-  Color get backgroundColor => PuzzleColors.white;
-
-  @override
-  Color get defaultColor => PuzzleColors.green90;
-
-  @override
-  Color get buttonColor => PuzzleColors.green50;
-
-  @override
-  Color get menuInactiveColor => PuzzleColors.green50;
-
-  @override
-  Color get countdownColor => PuzzleColors.green50;
-
-  @override
   String get themeAsset => 'assets/images/coidon/gallery/tiger.png';
 
   @override
-  String get successThemeAsset => 'assets/images/coidon/success/green.png';
+  String get successThemeAsset => 'assets/images/coidon/success/tiger.png';
 
   @override
   String get audioControlOffAsset =>

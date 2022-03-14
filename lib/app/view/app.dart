@@ -73,6 +73,10 @@ class _AppState extends State<App> {
           Image.asset('assets/images/coidon/wolf/$i.png').image,
           context,
         );
+        precacheImage(
+          Image.asset('assets/images/coidon/panda/$i.png').image,
+          context,
+        );
       }
 
       precacheImage(
@@ -80,7 +84,7 @@ class _AppState extends State<App> {
         context,
       );
       precacheImage(
-        Image.asset('assets/images/coidon/success/green.png').image,
+        Image.asset('assets/images/coidon/success/tiger.png').image,
         context,
       );
       precacheImage(
@@ -88,7 +92,7 @@ class _AppState extends State<App> {
         context,
       );
       precacheImage(
-        Image.asset('assets/images/coidon/success/blue.png').image,
+        Image.asset('assets/images/coidon/success/elephant.png').image,
         context,
       );
       precacheImage(
@@ -96,7 +100,7 @@ class _AppState extends State<App> {
         context,
       );
       precacheImage(
-        Image.asset('assets/images/coidon/success/yellow.png').image,
+        Image.asset('assets/images/coidon/success/wolf.png').image,
         context,
       );
       precacheImage(
@@ -175,7 +179,7 @@ class _AppState extends State<App> {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(color: Color(0xFF13B9FF)),
         colorScheme: ColorScheme.fromSwatch(
-          accentColor: const Color(0xFF13B9FF),
+          accentColor: Color.fromARGB(255, 239, 255, 19),
         ),
         tooltipTheme: TooltipThemeData(
           preferBelow: false,

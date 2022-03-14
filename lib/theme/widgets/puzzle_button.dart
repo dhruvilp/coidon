@@ -34,7 +34,7 @@ class PuzzleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = context.select((ThemeBloc bloc) => bloc.state.theme);
-    final buttonTextColor = textColor ?? PuzzleColors.white;
+    final buttonTextColor = textColor ?? PuzzleColors.black;
     final buttonBackgroundColor = backgroundColor ?? theme.buttonColor;
 
     return SizedBox(
@@ -44,7 +44,7 @@ class PuzzleButton extends StatelessWidget {
         duration: PuzzleThemeAnimationDuration.textStyle,
         style: TextButton.styleFrom(
           padding: EdgeInsets.zero,
-          textStyle: PuzzleTextStyle.headline5,
+          textStyle: PuzzleTextStyle.headline5.copyWith(letterSpacing: 1.2),
         ).copyWith(
           backgroundColor: MaterialStateProperty.all(buttonBackgroundColor),
           foregroundColor: MaterialStateProperty.all(buttonTextColor),

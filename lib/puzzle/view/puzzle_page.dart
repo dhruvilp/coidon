@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:very_good_slide_puzzle/audio_control/audio_control.dart';
 import 'package:very_good_slide_puzzle/dashatar/coidon.dart';
+import 'package:very_good_slide_puzzle/dashatar/themes/panda_theme.dart';
 import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 import 'package:very_good_slide_puzzle/layout/layout.dart';
 import 'package:very_good_slide_puzzle/models/models.dart';
@@ -37,9 +38,7 @@ class PuzzlePage extends StatelessWidget {
               ElephantCoidonTheme(),
               TigerCoidonTheme(),
               RedWolfCoidonTheme(),
-              ElephantCoidonTheme(),
-              TigerCoidonTheme(),
-              RedWolfCoidonTheme(),
+              PandaCoidonTheme(),
             ],
           ),
         ),

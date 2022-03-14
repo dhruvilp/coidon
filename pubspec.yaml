@@ -42,6 +42,7 @@ flutter:
     - assets/images/coidon/tiger/
     - assets/images/coidon/elephant/
     - assets/images/coidon/wolf/
+    - assets/images/coidon/panda/
   fonts:
     - family: MetalMania
       fonts:

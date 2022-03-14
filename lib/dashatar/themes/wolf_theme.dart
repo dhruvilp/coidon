@@ -3,11 +3,11 @@ import 'package:very_good_slide_puzzle/colors/colors.dart';
 import 'package:very_good_slide_puzzle/dashatar/coidon.dart';
 import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 
-/// {@template yellow_dashatar_theme}
+/// {@template wolf_theme}
 /// The yellow dashatar puzzle theme.
 /// {@endtemplate}
 class RedWolfCoidonTheme extends CoidonTheme {
-  /// {@macro yellow_dashatar_theme}
+  /// {wolf_theme}
   const RedWolfCoidonTheme() : super();
 
   @override
@@ -15,25 +15,10 @@ class RedWolfCoidonTheme extends CoidonTheme {
       context.l10n.coidonWolfLabelText;
 
   @override
-  Color get backgroundColor => PuzzleColors.black;
-
-  @override
-  Color get defaultColor => PuzzleColors.yellow90;
-
-  @override
-  Color get buttonColor => PuzzleColors.yellow50;
-
-  @override
-  Color get menuInactiveColor => PuzzleColors.yellow50;
-
-  @override
-  Color get countdownColor => PuzzleColors.yellow50;
-
-  @override
   String get themeAsset => 'assets/images/coidon/gallery/wolf.png';
 
   @override
-  String get successThemeAsset => 'assets/images/coidon/success/yellow.png';
+  String get successThemeAsset => 'assets/images/coidon/success/wolf.png';
 
   @override
   String get audioControlOffAsset =>

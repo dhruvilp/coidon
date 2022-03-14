@@ -5,6 +5,9 @@ import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 import 'package:very_good_slide_puzzle/layout/layout.dart';
 import 'package:very_good_slide_puzzle/puzzle/puzzle.dart';
 import 'package:very_good_slide_puzzle/theme/theme.dart';
+import 'package:very_good_slide_puzzle/theme/widgets/puzzle_subtitle.dart';
+
+import '../../typography/text_styles.dart';
 
 /// {@template dashatar_start_section}
 /// Displays the start section of the puzzle based on [state].
@@ -43,12 +46,17 @@ class DashatarStartSection extends StatelessWidget {
               ? context.l10n.coidonElephantLabelText
               : theme.name.contains('Wolf')
                   ? context.l10n.coidonWolfLabelText
-                  : context.l10n.coidonTigerLabelText,
+                  : theme.name.contains('Tiger')
+                      ? context.l10n.coidonTigerLabelText
+                      : context.l10n.coidonPandaLabelText,
+        ),
+        PuzzleSubtitle(
+          title: theme.scientificName,
         ),
         const ResponsiveGap(
-          small: 12,
-          medium: 16,
-          large: 32,
+          small: 9, //x3
+          medium: 12, //x4
+          large: 24, //x8
         ),
         NumberOfMovesAndTilesLeft(
           key: numberOfMovesAndTilesLeftKey,
@@ -58,9 +66,9 @@ class DashatarStartSection extends StatelessWidget {
               : state.puzzle.tiles.length - 1,
         ),
         const ResponsiveGap(
-          small: 8,
-          medium: 18,
-          large: 32,
+          small: 7,
+          medium: 12,
+          large: 25,
         ),
         ResponsiveLayoutBuilder(
           small: (_, __) => const SizedBox(),

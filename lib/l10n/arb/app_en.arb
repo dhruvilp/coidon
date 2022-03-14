@@ -128,6 +128,10 @@
     "@coidonWolfLabelText": {
         "description": "Red Wolf"
     },
+    "coidonPandaLabelText": "Red Panda",
+    "@coidonPandaLabelText": {
+        "description": "Red Panda"
+    },
     "dashatarSuccessShareYourScoreTitle": "Share your score!",
     "@dashatarSuccessShareYourScoreTitle": {
         "description": "Shown as a share title in the COIDON success state"

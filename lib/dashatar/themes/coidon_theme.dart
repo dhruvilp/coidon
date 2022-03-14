@@ -13,8 +13,8 @@ abstract class CoidonTheme extends PuzzleTheme {
   /// {@macro dashatar_theme}
   const CoidonTheme() : super();
 
-  // @override
-  // String get name => 'COIDON';
+  @override
+  String get name => 'COIDON';
 
   @override
   String get audioControlOnAsset =>
@@ -24,13 +24,25 @@ abstract class CoidonTheme extends PuzzleTheme {
   bool get hasTimer => true;
 
   @override
+  Color get backgroundColor => PuzzleColors.black;
+
+  @override
+  Color get defaultColor => PuzzleColors.yellow90;
+
+  @override
+  Color get buttonColor => PuzzleColors.yellow72;
+
+  @override
+  Color get menuInactiveColor => PuzzleColors.yellow50;
+
+  @override
   Color get nameColor => PuzzleColors.white;
 
   @override
   Color get titleColor => PuzzleColors.white;
 
   @override
-  Color get hoverColor => PuzzleColors.black2;
+  Color get hoverColor => PuzzleColors.white2;
 
   @override
   Color get pressedColor => PuzzleColors.white2;
@@ -44,15 +56,15 @@ abstract class CoidonTheme extends PuzzleTheme {
   @override
   Color get menuUnderlineColor => PuzzleColors.white;
 
+  /// Countdown color
+  Color get countdownColor => PuzzleColors.yellow72;
+
   @override
   PuzzleLayoutDelegate get layoutDelegate =>
       const DashatarPuzzleLayoutDelegate();
 
   /// The semantics label of this theme.
   String semanticsLabel(BuildContext context);
-
-  /// The text color of the countdown timer.
-  Color get countdownColor;
 
   /// The path to the image asset of this theme.
   ///
