@@ -1,15 +1,35 @@
-# Slide Puzzle
+# COIDON Slide Puzzle
 
 ![Photo Booth Header][logo]
 
-![coverage][coverage_badge]
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![License: MIT][license_badge]][license_link]
+Devpost Link: https://devpost.com/software/coidon-puzzle
 
-A slide puzzle built for [Flutter Challenge](https://flutterhack.devpost.com/).
+Live Demo: 
+
+## Inspiration
+More than 40,000 species are threatened with extinction. That is still 28% of all assessed species. An endangered species is a species that is very likely to become extinct in the near future, either worldwide or in a particular political jurisdiction. Endangered species may be at risk due to factors such as habitat loss, poaching and invasive species. The International Union for Conservation of Nature (IUCN) Red List lists the global conservation status of many species, and various other agencies assess the status of species within particular areas. This made me think, what can I do about this? How can I help? Spreading awareness about these species and why they're so close to extinction.
+
+## What it does
+The COIDON app is a sliding puzzle that challenges a player to slide (frequently flat) pieces along certain routes (on a virtual board) to establish a picture of a species. The pieces to be moved consist of "imprinted" sections of a larger picture (like a jigsaw puzzle). The goal of this puzzle is to solve this puzzle as quickly as possible and **more importantly** learn about these endangered species and what can you do to save them.
+
+## How we built it
+Of course, this puzzle was built on top of the Dashatar slide puzzle developed by Very Good Ventures and team. Kudos to them. On of that, I did extensive research on these endangered species to learn about them and how can I redesign this puzzle challenge to be more informative and entertaining at the same time.
+
+## Challenges we ran into
+Understanding a new code base is often challenging but over time, I got used to it.
+
+## Accomplishments that we're proud of
+Working with BloC state management is an accomplishment for sure as it does complicate things a bit in my opinion but I got to learn more about it along this journey so it was fun. Being able to use this topic for this challenge is one of the biggest accomplishments that I'm certainly proud of as I closely support the mission of protecting endangered species and our planet. 
+
+## What we learned
+As I said, best practices around Flutter (always love it), BloC state management, and a lot more about endangered species. For instance, I didn't know that "spiders can fly" and there is a "fish that can walk". So, it've been a fantastic experience.
+
+## What's next for COIDON Puzzle
+COIDON puzzle app will continue after this challenge and I'm planning on adding more species to the game and possibly a leaderboard with scores.
+
+*Modified by Dhruvil Patel (Github: @dhruvilp)*
 
 *Built by [Very Good Ventures][very_good_ventures_link] in partnership with Google.*
-
 *Created using [Very Good CLI][very_good_cli_link].*
 
 ---
