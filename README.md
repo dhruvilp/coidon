@@ -1,4 +1,12 @@
-# COIDON Slide Puzzle
+# COIDON Puzzle
+
+<table border="0">
+ <tr>
+    <td><img src="art/Icon-192.png"  alt="1" width =360px ></td>
+    <td>COIDON, the Conservation of Integrity & Diversity of Nature is a slide puzzle game to spread awareness about threatened species across the globe. More than 40k species are threatened with extinction.</td>
+ </tr>
+</table>
+
 
 ![Photo Booth Header][logo]
 
@@ -173,3 +181,4 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
 [very_good_ventures_link]: https://verygood.ventures/
 [logo]: art/header.png
+[app-icon]: art/Icon-192.png
